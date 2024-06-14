@@ -8,7 +8,7 @@ See https://nodejs.org/en/download/prebuilt-installer for instructions on how to
 pnpm can be installed by running `npm i -g pnpm`
 yarn can be installed by running `npm i -g yarn`
 
-pnpm is the preferred package manager for this project, should be ok as well.
+pnpm is the preferred package manager for this project, but yarn or npm should be ok as well.
 
 # Checkout app 
 ```
