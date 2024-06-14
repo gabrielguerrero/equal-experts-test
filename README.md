@@ -36,5 +36,19 @@ Start up a database, if needed using './start-database.sh'
 yarn db:push
 yarn dev
 ```
+# running test
+
+pnpm
+```
+pnpm test
+```
+yarn
+```
+yarn test
+```
+npm
+```
+npm run test
+```
 
 
