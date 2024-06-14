@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ee-background-blue{
+    background-color: rgb(23, 149, 212)
+}
+.ee-text-blue{
+    color: rgb(23, 149, 212)
+}
+.ee-background-grey {
+    background-color: rgb(245, 245, 245)
+}
+html {
+    font-family: Montserrat, sans-serif;
+}

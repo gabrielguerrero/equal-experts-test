@@ -27,7 +27,8 @@
     "baseUrl": ".",
     "paths": {
       "equal-experts/*": ["./src/*"]
-    }
+    },
+    "types": ["vitest/globals"]
   },
   "include": [
     ".eslintrc.cjs",
@@ -36,7 +37,8 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "./src/tests-setup.js"
   ],
   "exclude": ["node_modules"]
 }

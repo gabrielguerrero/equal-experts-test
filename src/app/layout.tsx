@@ -17,7 +17,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body>
+      <body className="ee-background-grey">
+        <a href="https://www.equalexperts.com/">
+          <header className="ee-background-blue h-18 p-4">
+            <img
+              src="/equalexperts.svg"
+              alt="[=] Equal Experts"
+              width={"150px"}
+              height={"40px"}
+            />
+          </header>
+        </a>
         <TRPCReactProvider>{children}</TRPCReactProvider>
       </body>
     </html>

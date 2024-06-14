@@ -10,7 +10,8 @@ import { initTRPC } from "@trpc/server";
 import superjson from "superjson";
 import { ZodError } from "zod";
 
-import { db } from "equal-experts/server/db";
+import { db, schema } from "equal-experts/server/db";
+import { PostgresJsDatabase } from "drizzle-orm/postgres-js";
 
 /**
  * 1. CONTEXT
@@ -24,10 +25,13 @@ import { db } from "equal-experts/server/db";
  *
  * @see https://trpc.io/docs/server/context
  */
-export const createTRPCContext = async (opts: { headers: Headers }) => {
+export const createTRPCContext = async (opts: {
+  headers: Headers;
+  db?: PostgresJsDatabase<typeof schema>;
+}) => {
   return {
-    db,
     ...opts,
+    db: opts.db ?? db,
   };
 };
 
