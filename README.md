@@ -2,6 +2,7 @@
 Equal Experts test hash 5b8d0fd276b6d288905ed2f63a934e057e8feca2
 
 # Running the app
+You must have node 20.0.0 or higher installed on your machine, and npm or yarn or pnpm installed.
 
 # Checkout app 
 ```
