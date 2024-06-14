@@ -2,7 +2,13 @@
 Equal Experts test hash 5b8d0fd276b6d288905ed2f63a934e057e8feca2
 
 # Running the app
-You must have node 20.0.0 or higher installed on your machine, and npm or yarn or pnpm installed.
+You must have node 20.0.0 or higher installed on your machine
+See https://nodejs.org/en/download/prebuilt-installer for instructions on how to install node on your machine.
+, and npm or yarn or pnpm installed.
+pnpm can be installed by running `npm i -g pnpm`
+yarn can be installed by running `npm i -g yarn`
+
+pnpm is the preferred package manager for this project, should be ok as well.
 
 # Checkout app 
 ```
