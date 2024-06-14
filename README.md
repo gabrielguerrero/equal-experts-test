@@ -3,6 +3,11 @@ Equal Experts test hash 5b8d0fd276b6d288905ed2f63a934e057e8feca2
 
 # Running the app
 
+# Checkout app 
+```
+git clone git@github.com:gabrielguerrero/equal-experts-test.git 
+cd equal-experts-test
+```
 # using pnpm 
 ```
 pnpm i
